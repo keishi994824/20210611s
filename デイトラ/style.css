@@ -1,0 +1,224 @@
+@charset "utf-8";
+
+html {
+  font-size: 100%;
+}
+
+body{
+  line-height: 1.6;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+  color: #161616;
+}
+
+li{
+  list-style: none;
+}
+
+/* ヘッダー
+------------------------------- */
+header .container{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-right ul{
+  display: flex;
+}
+
+.header-right ul li{
+  padding: 0 18px;
+}
+
+/* メインの写真
+------------------------------- */
+.top-wrapper{
+  text-align: center;
+  background-image: url(img/main-vsual-nontitle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  margin-bottom: 80px;
+}
+
+.top-wrapper h1{
+  font-size: 36px;
+  padding-top: 100px;
+}
+
+.top-wrapper p{
+  font-size: 16px;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+/* デイトラとは
+------------------------------- */
+.about-wrapper{
+  margin-bottom: 90px;
+}
+
+.about-wrapper .title{
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.about-wrapper .about{
+  display: flex;
+  justify-content: center;
+}
+
+.about-wrapper img{
+  width: 400px;
+  height: auto;
+}
+
+.about-wrapper .text{
+  text-align: left;
+  width: 410px;
+  margin-left: 40px;
+}
+
+/* コース一覧
+------------------------------- */
+.course-wrapper{
+  margin-bottom: 75px;
+}
+
+.course-wrapper .title{
+  margin-bottom: 40px;
+}
+
+.course-wrapper .container{
+  text-align: center;
+}
+
+.course{
+  display: flex;
+  justify-content: center;
+}
+
+.menu{
+  padding: 0 18px;
+}
+
+/* お問い合わせ
+------------------------------- */
+.contact-wrapper {
+  margin-bottom: 110px;
+}
+
+.contact-wrapper .title{
+  margin-bottom: 20px;
+}
+
+.contact-wrapper .container{
+  text-align: center;
+}
+
+.info{
+  display: inline-block;
+}
+
+.info input{
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  line-height: 2.5;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+
+.info input:focus{
+  border: 2px solid #00f;
+}
+
+.btn {
+  position: relative;
+  margin: 15px auto;
+  padding: 20px;
+  font-size: 1.2rem;
+  width: 300px;
+  background: rgb(218, 51, 85);
+  box-shadow: 0 6px 0 rgb(145 0 29);
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:active {
+  box-shadow: none;
+  top: 6px;
+}
+
+/* footer
+------------------------------- */
+footer{
+  border: 1px solid #ccc;
+}
+
+footer .container{
+  text-align: right;
+}
+
+footer .container p{
+  font-size: 12px;
+  margin: 15px 0 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
